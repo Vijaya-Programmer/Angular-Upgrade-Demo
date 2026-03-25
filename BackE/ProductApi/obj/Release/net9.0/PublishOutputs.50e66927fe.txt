@@ -1,0 +1,9 @@
+D:\Course - Signals\Project\BackE\ProductApi\publish\ProductApi.exe
+D:\Course - Signals\Project\BackE\ProductApi\publish\appsettings.Development.json
+D:\Course - Signals\Project\BackE\ProductApi\publish\appsettings.json
+D:\Course - Signals\Project\BackE\ProductApi\publish\ProductApi.dll
+D:\Course - Signals\Project\BackE\ProductApi\publish\ProductApi.deps.json
+D:\Course - Signals\Project\BackE\ProductApi\publish\ProductApi.runtimeconfig.json
+D:\Course - Signals\Project\BackE\ProductApi\publish\ProductApi.pdb
+D:\Course - Signals\Project\BackE\ProductApi\publish\Microsoft.AspNetCore.OpenApi.dll
+D:\Course - Signals\Project\BackE\ProductApi\publish\Microsoft.OpenApi.dll

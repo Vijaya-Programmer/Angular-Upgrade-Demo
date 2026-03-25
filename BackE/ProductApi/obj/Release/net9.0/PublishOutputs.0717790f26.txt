@@ -1,0 +1,9 @@
+C:\inetpub\wwwroot\ProductAPIBE\ProductApi.exe
+C:\inetpub\wwwroot\ProductAPIBE\appsettings.Development.json
+C:\inetpub\wwwroot\ProductAPIBE\appsettings.json
+C:\inetpub\wwwroot\ProductAPIBE\ProductApi.dll
+C:\inetpub\wwwroot\ProductAPIBE\ProductApi.deps.json
+C:\inetpub\wwwroot\ProductAPIBE\ProductApi.runtimeconfig.json
+C:\inetpub\wwwroot\ProductAPIBE\ProductApi.pdb
+C:\inetpub\wwwroot\ProductAPIBE\Microsoft.AspNetCore.OpenApi.dll
+C:\inetpub\wwwroot\ProductAPIBE\Microsoft.OpenApi.dll

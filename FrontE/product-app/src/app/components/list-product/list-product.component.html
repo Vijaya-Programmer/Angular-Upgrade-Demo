@@ -1,0 +1,35 @@
+<p>list-product works!</p>
+<div class="page-container">
+  <div class="page-header">
+    <h1>Products List</h1>
+    <button routerLink="/products/create" class="btn btn-primary">+ Add Product</button>
+  </div>
+
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Price</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of products">
+          <td>{{ product.id }}</td>
+          <td>{{ product.name }}</td>
+          <td>{{ product.description }}</td>
+          <td>${{ product.price }}</td>
+          <td>
+            <button class="btn btn-danger" (click)="deleteProduct(product.id)">Delete</button>
+          </td>
+        </tr>
+        <tr *ngIf="products.length === 0">
+          <td colspan="5">No products found / API disconnected.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

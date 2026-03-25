@@ -1,0 +1,28 @@
+<p>create-product works!</p>
+<div class="page-container">
+  <h1>Add New Product</h1>
+  
+  <div class="form-card">
+    <form (ngSubmit)="onSubmit()" #productForm="ngForm">
+      <div class="form-group">
+        <label for="name">Product Name</label>
+        <input type="text" id="name" name="name" [(ngModel)]="product.name" required class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="description">Description</label>
+        <textarea id="description" name="description" [(ngModel)]="product.description" rows="4" class="form-control"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="price">Price ($)</label>
+        <input type="number" id="price" name="price" [(ngModel)]="product.price" required class="form-control">
+      </div>
+
+      <div class="form-actions">
+        <button type="button" class="btn btn-secondary" routerLink="/products">Cancel</button>
+        <button type="submit" class="btn btn-primary" [disabled]="!productForm.valid">Save Product</button>
+      </div>
+    </form>
+  </div>
+</div>
