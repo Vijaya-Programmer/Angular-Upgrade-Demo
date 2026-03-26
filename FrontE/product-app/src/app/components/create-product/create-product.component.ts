@@ -1,12 +1,15 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { Product } from '../../models/product';
 import { ProductService } from '../../services/product.service';
+import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-create-product',
-  templateUrl: './create-product.component.html',
-  styleUrls: ['./create-product.component.css']
+    selector: 'app-create-product',
+    templateUrl: './create-product.component.html',
+    styleUrls: ['./create-product.component.css'],
+    standalone: true,
+    imports: [FormsModule, RouterLink]
 })
 export class CreateProductComponent {
   product: Product = {

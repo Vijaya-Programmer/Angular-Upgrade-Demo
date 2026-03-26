@@ -1,11 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../../models/product';
 import { ProductService } from '../../services/product.service';
+import { NgFor, NgIf } from '@angular/common';
+import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-list-product',
-  templateUrl: './list-product.component.html',
-  styleUrls: ['./list-product.component.css']
+    selector: 'app-list-product',
+    templateUrl: './list-product.component.html',
+    styleUrls: ['./list-product.component.css'],
+    standalone: true,
+    imports: [RouterLink, NgFor, NgIf]
 })
 export class ListProductComponent implements OnInit {
   products: Product[] = [];
