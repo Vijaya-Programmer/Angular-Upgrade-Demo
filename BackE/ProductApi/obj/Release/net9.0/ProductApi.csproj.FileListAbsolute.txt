@@ -30,3 +30,4 @@ D:\Course - Signals\Project\BackE\ProductApi\obj\Release\net9.0\refint\ProductAp
 D:\Course - Signals\Project\BackE\ProductApi\obj\Release\net9.0\ProductApi.pdb
 D:\Course - Signals\Project\BackE\ProductApi\obj\Release\net9.0\ProductApi.genruntimeconfig.cache
 D:\Course - Signals\Project\BackE\ProductApi\obj\Release\net9.0\ref\ProductApi.dll
+D:\Course - Signals\Project\BackE\ProductApi\obj\Release\net9.0\ProductApi.sourcelink.json
