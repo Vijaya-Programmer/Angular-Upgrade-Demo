@@ -30,3 +30,10 @@ D:\Course - Signals\Project\BackE\ProductApi\obj\Debug\net9.0\refint\ProductApi.
 D:\Course - Signals\Project\BackE\ProductApi\obj\Debug\net9.0\ProductApi.pdb
 D:\Course - Signals\Project\BackE\ProductApi\obj\Debug\net9.0\ProductApi.genruntimeconfig.cache
 D:\Course - Signals\Project\BackE\ProductApi\obj\Debug\net9.0\ref\ProductApi.dll
+D:\Course - Signals\Project\BackE\ProductApi\bin\Debug\net9.0\publish\web.config
+D:\Course - Signals\Project\BackE\ProductApi\bin\Debug\net9.0\publish\appsettings.Development.json
+D:\Course - Signals\Project\BackE\ProductApi\bin\Debug\net9.0\publish\appsettings.json
+D:\Course - Signals\Project\BackE\ProductApi\bin\Debug\net9.0\publish\ProductApi.deps.json
+D:\Course - Signals\Project\BackE\ProductApi\bin\Debug\net9.0\publish\ProductApi.runtimeconfig.json
+D:\Course - Signals\Project\BackE\ProductApi\bin\Debug\net9.0\publish\ProductApi.staticwebassets.endpoints.json
+D:\Course - Signals\Project\BackE\ProductApi\obj\Debug\net9.0\ProductApi.sourcelink.json
