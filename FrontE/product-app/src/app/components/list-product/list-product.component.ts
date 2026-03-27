@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../../models/product';
 import { ProductService } from '../../services/product.service';
-import { NgFor, NgIf } from '@angular/common';
+
 import { RouterLink } from '@angular/router';
 
 @Component({
@@ -9,7 +9,7 @@ import { RouterLink } from '@angular/router';
     templateUrl: './list-product.component.html',
     styleUrls: ['./list-product.component.css'],
     standalone: true,
-    imports: [RouterLink, NgFor, NgIf]
+    imports: [RouterLink]
 })
 export class ListProductComponent implements OnInit {
   products: Product[] = [];
@@ -35,4 +35,6 @@ export class ListProductComponent implements OnInit {
       });
     }
   }
+
+  
 }

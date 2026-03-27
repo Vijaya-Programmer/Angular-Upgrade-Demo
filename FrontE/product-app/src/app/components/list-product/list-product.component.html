@@ -17,19 +17,24 @@
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let product of products">
-          <td>{{ product.id }}</td>
-          <td>{{ product.name }}</td>
-          <td>{{ product.description }}</td>
-          <td>${{ product.price }}</td>
-          <td>
-            <button class="btn btn-danger" (click)="deleteProduct(product.id)">Delete</button>
-          </td>
-        </tr>
-        <tr *ngIf="products.length === 0">
-          <td colspan="5">No products found / API disconnected.</td>
-        </tr>
+        @if (products.length > 0) {
+          @for (product of products; track product.id) {
+            <tr>
+              <td>{{ product.id }}</td>
+              <td>{{ product.name }}</td>
+              <td>{{ product.description }}</td>
+              <td>${{ product.price }}</td>
+              <td>
+                <button class="btn btn-danger" (click)="deleteProduct(product.id)">Delete</button>
+              </td>
+            </tr>
+          }
+        } @else {
+          <tr>
+            <td colspan="5">No products found / API disconnected.</td>
+          </tr>
+        }      
       </tbody>
     </table>
   </div>
-</div>
+  </div>
